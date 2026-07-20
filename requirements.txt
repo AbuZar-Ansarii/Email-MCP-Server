@@ -1,0 +1,4 @@
+uv
+fastmcp
+email-validator
+smtplib
