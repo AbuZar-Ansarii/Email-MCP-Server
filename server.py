@@ -9,8 +9,8 @@ mcp = FastMCP("email-sender")
 # ⚡ Configure your email credentials here
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SENDER_EMAIL = "fake.emailt1t2@gmail.com"
-SENDER_PASSWORD = "klkezzmoqqnhnhgb" 
+SENDER_EMAIL = "Your_email"
+SENDER_PASSWORD = "your_app_pass" 
 
 @mcp.tool()
 def send_email(receiver: str, subject: str, content: str) -> str:
